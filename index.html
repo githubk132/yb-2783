@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="hoa.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="hiddenDiv" style="display: flex;">
+        <div class="container container1">
+            <a class="close clickableDiv">X</a>
+            <div class="form-container sign-in-container">
+                <form action="#" id="loginForm">
+                    <img class="logo_yb" src="logo.jpg" alt="logo_yb" srcset="">
+
+                    <h1 class="login">Yên Bình<span class="login-title"> </span></h1>
+                    <span class="uncorrect_pass" id="message">
+                        <"Xinh đẹp!">
+                    </span>
+                    <!--Tài khoản hoặc mật khẩu không đúng!-->
+                    <input type="text" placeholder="Tên đăng nhập" />
+                    <input type="password" placeholder="Mật khẩu" />
+                    <a type="button2" id="loginButton2">Quên mật khẩu?</a>
+                    <button type="button" id="loginButton">Đăng nhập</button>
+                    <script>
+                        document.getElementById("loginButton").addEventListener("click", function () {
+                            document.getElementById("message").textContent = "Tên đăng nhập hoặc mật khẩu không đúng!";
+                            var messageSpan = document.getElementById("message");
+
+                            // Thêm lớp 'zoomed' để phóng to chữ
+                            messageSpan.classList.add("zoomed");
+                            // Thêm lớp 'shake' để lắc
+                            messageSpan.classList.add("shake");
+
+                            // Sau 0.5 giây (thời gian phóng to), gỡ bỏ lớp 'zoomed'
+                            setTimeout(function () {
+                                messageSpan.classList.remove("zoomed");
+                            }, 500); // Thời gian phóng to
+
+                            // Sau 0.5 giây (thời gian lắc), gỡ bỏ lớp 'shake'
+                            setTimeout(function () {
+                                messageSpan.classList.remove("shake");
+                            }, 500); // Thời gian lắc
+                        });
+                        document.getElementById("loginButton2").addEventListener("click", function () {
+                            document.getElementById("message").textContent = "Ai cho mà quên hảaa???";
+                            var messageSpan = document.getElementById("message");
+
+                            // Thêm lớp 'zoomed' để phóng to chữ
+                            messageSpan.classList.add("zoomed");
+                            // Thêm lớp 'shake' để lắc
+                            messageSpan.classList.add("shake");
+
+                            // Sau 0.5 giây (thời gian phóng to), gỡ bỏ lớp 'zoomed'
+                            setTimeout(function () {
+                                messageSpan.classList.remove("zoomed");
+                            }, 500); // Thời gian phóng to
+
+                            // Sau 0.5 giây (thời gian lắc), gỡ bỏ lớp 'shake'
+                            setTimeout(function () {
+                                messageSpan.classList.remove("shake");
+                            }, 500); // Thời gian lắc
+                        });
+                    </script>
+                </form>
+            </div>
+            <div class="overlay-container overlay-container1">
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="ig first">
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh1">
+
+                </div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh2"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh3"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh4"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ig">
+        <div class="image-wrap2 clickableDiv">
+            <div class="wrap">
+                <div class="background anh5"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap2 clickableDiv">
+            <div class="wrap">
+                <div class="background anh6"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap2 clickableDiv">
+            <div class="wrap">
+                <div class="background anh7"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap2 clickableDiv">
+            <div class="wrap">
+                <div class="background anh8"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap2 clickableDiv">
+            <div class="wrap">
+                <div class="background anh9"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap2 clickableDiv">
+            <div class="wrap">
+                <div class="background anh10"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+    </div>
+    <div class="ig last">
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh11"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh12"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh13"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+        <div class="image-wrap clickableDiv">
+            <div class="wrap">
+                <div class="background anh14"></div>
+                <div class="view">Xem chi tiết >></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script>
+        const clickableDivs = document.querySelectorAll('.clickableDiv');
+        const hiddenDiv = document.getElementById('hiddenDiv');
+        const body = document.body;
+
+        clickableDivs.forEach((clickableDiv) => {
+            clickableDiv.addEventListener('click', function () {
+                if (hiddenDiv.style.display === 'none') {
+                    hiddenDiv.style.display = 'flex'; 
+                    body.style.overflow = 'hidden';
+                } else {
+                    hiddenDiv.style.display = 'none'; 
+                    body.style.overflow = '';
+                }
+            });
+        });
+        hiddenDiv.addEventListener('click', function (event) {
+            if (!event.target.closest('.container')) {
+                hiddenDiv.style.display = 'none';
+                body.style.overflow = '';
+            }
+        });
+    </script>
+</body>
+
+</html>
